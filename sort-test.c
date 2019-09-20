@@ -3,7 +3,7 @@
 
 void sort( int* x_ptr, int* y_ptr )
 {
-  if ( (*y_ptr) > (*x_ptr) ) {
+  if ( (*y_ptr) < (*x_ptr) ) {
     int temp = *x_ptr;
     *x_ptr   = *y_ptr;
     *y_ptr   = temp;
